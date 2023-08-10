@@ -23,6 +23,11 @@ body {
   display: flex;
   gap: 2rem;
 }
+.nav-icons {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
 .navbar {
   display: flex;
   justify-content: center;
