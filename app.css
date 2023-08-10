@@ -244,16 +244,7 @@ a {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 694px) {
-  .nav-menu {
-    display: flex;
 
-    gap: 0.5rem;
-  }
-  .navbar {
-    gap: 1rem;
-  }
-}
 @media only screen and (max-width: 694px) {
   .nav-menu {
     display: flex;
