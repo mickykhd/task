@@ -142,10 +142,9 @@ a {
   font-weight: 600;
 }
 @media only screen and (max-width: 941px) {
-  /* Styles for screens up to 480px */
   .nav-menu {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 0.5rem;
   }
   .navbar {
@@ -238,5 +237,25 @@ a {
     display: flex;
     gap: clamp(0.5rem, 2vw, 2rem);
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 694px) {
+  .nav-menu {
+    display: flex;
+
+    gap: 0.5rem;
+  }
+  .navbar {
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 694px) {
+  .nav-menu {
+    display: flex;
+
+    gap: 0.1rem;
+  }
+  .navbar {
+    gap: 0.2rem;
   }
 }
